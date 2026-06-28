@@ -136,18 +136,22 @@ for the command list.
 1. Find or export a MIDI file and drop it in `Midi/` (a convenience drop-folder;
    `.mid` files there are git-ignored).
 2. Convert it with **MidiViewer** (open, select tracks, Install to BeepSongs).
-3. The resulting `.beep` lands in `Songs/`; rebuild BeepSongs to bundle it.
+3. The resulting `.beep` lands in `BeepSongs/Songs/`; rebuild BeepSongs to bundle it.
 
 ## Project structure
 
 ```
-BeepSongs/
+BeepSongs/                  Solution root
 ├── BeepSongs.sln
-├── Include/        Shared player headers (TimedNote, BeepFormat, MappedSong, ...)
-├── Source/         BeepSongs player implementation
-├── Songs/          .beep song assets, loaded at runtime
-├── MidiViewer/     MIDI viewer + converter + installer (Win32 GUI)
-├── BeepMaker/      Live beat/synth REPL (console)
-├── Midi/           Drop-folder for your MIDI inputs (*.mid git-ignored)
-└── Build/          Build output (git-ignored)
+├── BeepSongs/              Player project
+│   ├── Include/            Player + format headers (TimedNote, BeepFormat, MappedSong, ...)
+│   ├── Source/             Player implementation
+│   └── Songs/              .beep song assets, loaded at runtime
+├── MidiViewer/             MIDI viewer + converter + installer (Win32 GUI)
+├── BeepMaker/              Live beat/synth REPL (console)
+├── Midi/                   Drop-folder for your MIDI inputs (*.mid git-ignored)
+└── Build/                  Build output (git-ignored)
 ```
+
+(`BeepFormat.h` / `TimedNote.h` in `BeepSongs/Include` are also shared by MidiViewer,
+which references them for the `.beep` writer.)
