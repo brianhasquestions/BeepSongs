@@ -1,6 +1,9 @@
 # Build output (all projects share this directory)
 /Build/
 
+# Release packaging artifacts
+/dist/
+
 # Editor / tooling local state
 .vs/
 .claude/
