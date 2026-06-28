@@ -1,0 +1,19 @@
+# Build output (all projects share this directory)
+/Build/
+
+# Editor / tooling local state
+.vs/
+.claude/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Scratch / working note dumps
+*_notes.txt
+
+# Keep the Midi/ directory (see Midi/.gitkeep) but don't publish the
+# copyrighted source MIDI files or any generated conversion output.
+/Midi/*.mid
+/Midi/*.midi
+/Midi/out/

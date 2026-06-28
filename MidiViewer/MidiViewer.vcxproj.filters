@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A1B2C3D4-0001-4000-8000-000000000001}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\App">
+      <UniqueIdentifier>{A1B2C3D4-0001-4000-8000-000000000002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{A1B2C3D4-0001-4000-8000-000000000003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Playback">
+      <UniqueIdentifier>{A1B2C3D4-0001-4000-8000-000000000004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Filters">
+      <UniqueIdentifier>{A1B2C3D4-0001-4000-8000-000000000007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Export">
+      <UniqueIdentifier>{A1B2C3D4-0001-4000-8000-000000000005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Conversion">
+      <UniqueIdentifier>{A1B2C3D4-0001-4000-8000-000000000006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A1B2C3D4-0002-4000-8000-000000000001}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\App">
+      <UniqueIdentifier>{A1B2C3D4-0002-4000-8000-000000000002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{A1B2C3D4-0002-4000-8000-000000000003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Playback">
+      <UniqueIdentifier>{A1B2C3D4-0002-4000-8000-000000000004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Filters">
+      <UniqueIdentifier>{A1B2C3D4-0002-4000-8000-000000000007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Export">
+      <UniqueIdentifier>{A1B2C3D4-0002-4000-8000-000000000005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Conversion">
+      <UniqueIdentifier>{A1B2C3D4-0002-4000-8000-000000000006}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\AppState.h">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Resource.h">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MainWindow.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TrackRenderer.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TrackPlayer.h">
+      <Filter>Header Files\Playback</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\NoteFilters.h">
+      <Filter>Header Files\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ExportDialog.h">
+      <Filter>Header Files\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BeepSongsInstaller.h">
+      <Filter>Header Files\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MidiTypes.h">
+      <Filter>Header Files\Conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MidiParser.h">
+      <Filter>Header Files\Conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\NoteConverter.h">
+      <Filter>Header Files\Conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BeepWriter.h">
+      <Filter>Header Files\Conversion</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainWindow.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TrackRenderer.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TrackPlayer.cpp">
+      <Filter>Source Files\Playback</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NoteFilters.cpp">
+      <Filter>Source Files\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ExportDialog.cpp">
+      <Filter>Source Files\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BeepSongsInstaller.cpp">
+      <Filter>Source Files\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MidiParser.cpp">
+      <Filter>Source Files\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NoteConverter.cpp">
+      <Filter>Source Files\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BeepWriter.cpp">
+      <Filter>Source Files\Conversion</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

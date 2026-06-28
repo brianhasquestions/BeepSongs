@@ -1,0 +1,3 @@
+# This file keeps the Midi/ directory present in the repository.
+# Drop your own .mid / .midi files here to convert them with MidiViewer.
+# The source MIDI files themselves are git-ignored (see ../.gitignore).
