@@ -92,20 +92,6 @@
     <ClCompile Include="Source\SongPlayer.cpp" />
     <ClCompile Include="Source\MappedSong.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Songs\01_ChangeTheWorld.beep" />
-    <None Include="Songs\02_TellMeWhy.beep" />
-    <None Include="Songs\03_NausicaaRequiem.beep" />
-    <None Include="Songs\04_CruelAngelsThesis.beep" />
-    <None Include="Songs\05_MerryGoRound.beep" />
-    <None Include="Songs\06_FairyFountain.beep" />
-    <None Include="Songs\07_SariasSong.beep" />
-    <None Include="Songs\08_SongOfStorms.beep" />
-    <None Include="Songs\09_GerudoValley.beep" />
-    <None Include="Songs\10_WeAre.beep" />
-    <None Include="Songs\11_FallenDown.beep" />
-    <None Include="Songs\12_ForTheDamagedCoda.beep" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <Target Name="CopySongAssets" AfterTargets="Build">
     <ItemGroup>

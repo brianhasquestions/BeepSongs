@@ -9,10 +9,6 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Song Files">
-      <UniqueIdentifier>{C4D5E6F7-A8B9-0123-CDEF-456789012345}</UniqueIdentifier>
-      <Extensions>beep</Extensions>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\MusicConstants.h">
@@ -44,43 +40,5 @@
     <ClCompile Include="Source\MappedSong.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Songs\01_ChangeTheWorld.beep">
-      <Filter>Song Files</Filter>
-    </None>
-    <None Include="Songs\02_TellMeWhy.beep">
-      <Filter>Song Files</Filter>
-    </None>
-    <None Include="Songs\03_NausicaaRequiem.beep">
-      <Filter>Song Files</Filter>
-    </None>
-    <None Include="Songs\04_CruelAngelsThesis.beep">
-      <Filter>Song Files</Filter>
-    </None>
-    <None Include="Songs\05_MerryGoRound.beep">
-      <Filter>Song Files</Filter>
-    </None>
-    <None Include="Songs\06_FairyFountain.beep">
-      <Filter>Song Files</Filter>
-    </None>
-    <None Include="Songs\07_SariasSong.beep">
-      <Filter>Song Files</Filter>
-    </None>
-    <None Include="Songs\08_SongOfStorms.beep">
-      <Filter>Song Files</Filter>
-    </None>
-    <None Include="Songs\09_GerudoValley.beep">
-      <Filter>Song Files</Filter>
-    </None>
-    <None Include="Songs\10_WeAre.beep">
-      <Filter>Song Files</Filter>
-    </None>
-    <None Include="Songs\11_FallenDown.beep">
-      <Filter>Song Files</Filter>
-    </None>
-    <None Include="Songs\12_ForTheDamagedCoda.beep">
-      <Filter>Song Files</Filter>
-    </None>
   </ItemGroup>
 </Project>
